@@ -4,6 +4,13 @@ setuptools>=26
 twine
 wheel>=0.29
 
+# dashboard
+dash
+dash_bootstrap_components
+dash_core_components
+dash_html_components 
+dash_bootstrap_components 
+
 # data science
 numpy
 pandas
