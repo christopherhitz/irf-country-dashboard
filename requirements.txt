@@ -1,8 +1,8 @@
 # packaging
 pip>=9
-setuptools>=26
-twine
-wheel>=0.29
+#setuptools>=26
+#twine
+#wheel>=0.29
 
 # dashboard
 dash
@@ -15,14 +15,14 @@ dash_extensions
 # data science
 numpy
 pandas
-scikit-learn
+#scikit-learn
 
 # tests/linter
-black
-coverage
-flake8
-pytest
-yapf
+#black
+#coverage
+#flake8
+#pytest
+#yapf
 
 # API
 #gcsfs
@@ -31,7 +31,7 @@ yapf
 #s3fs
 
 # utilities
-six>=1.14
-joblib
-memoized-property
-termcolor
+#six>=1.14
+#joblib
+#memoized-property
+#termcolor
