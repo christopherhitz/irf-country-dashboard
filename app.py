@@ -110,9 +110,6 @@ def countrys_latest_MetricData(dfObj=None, country='France', metric='Road Networ
     return metric, latest_year, value, unit
 
 # IMG 
-image_filename = 'irfcountrydashboard/data/img/sns_facet.png' # replace with your own image
-encoded_image = base64.b64encode(open(image_filename, 'rb').read())
-
 image_filename_2 = './irfcountrydashboard/data/img/sns_facet.png'  # replace with your own image
 encoded_image_2 = base64.b64encode(open(image_filename_2, 'rb').read())
 
