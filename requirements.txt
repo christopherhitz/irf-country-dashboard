@@ -13,7 +13,7 @@ seaborn
 matplotlib
 
 #Caching
-flask_caching import Cache
+flask_caching 
 
 # data science
 numpy
