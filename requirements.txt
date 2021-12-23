@@ -12,9 +12,13 @@ dash_html_components
 dash_bootstrap_components 
 dash_extensions
 
+#Viz
+opencv
+
 # data science
 numpy
 pandas
+math
 #scikit-learn
 
 # tests/linter
