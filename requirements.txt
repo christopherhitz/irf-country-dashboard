@@ -1,41 +1,24 @@
 # packaging
 pip>=9
-#setuptools>=26
-#twine
-#wheel>=0.29
 
-# dashboard
-dash
-dash_bootstrap_components
-dash_core_components
-dash_html_components 
-dash_bootstrap_components 
-dash_extensions
+# Dashboard
+dash # Viz -> Plotly comes shipped with dash
+dash-bootstrap-components
+dash-core-components
+dash-extensions
+dash-html-components 
 
 #Viz
-opencv
+seaborn
+matplotlib
+
+#Caching
+flask_caching import Cache
 
 # data science
 numpy
 pandas
 math
-#scikit-learn
+sklearn
 
-# tests/linter
-#black
-#coverage
-#flake8
-#pytest
-#yapf
 
-# API
-#gcsfs
-#google-cloud-storage
-#mlflow
-#s3fs
-
-# utilities
-#six>=1.14
-#joblib
-#memoized-property
-#termcolor
