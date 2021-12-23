@@ -18,7 +18,6 @@ flask_caching
 # data science
 numpy
 pandas
-math
 sklearn
 
 
